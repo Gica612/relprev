@@ -19,6 +19,8 @@ a {
  text-align: center;
  margin: 10px;
  color: slateblue;
+ width: 420px;
+ height: 55px;
 }
 h1{
   text-align: center;
@@ -27,4 +29,5 @@ title{
   text-align: center;
 
 }
+
 
