@@ -15,7 +15,7 @@ a {
  font-size: 20px;
  border-radius: 10px;
  padding: 10px;
- display: block;
+ display: inline-block;
  text-align: center;
  margin: 10px;
  color: slateblue;
@@ -27,3 +27,4 @@ title{
   text-align: center;
 
 }
+
