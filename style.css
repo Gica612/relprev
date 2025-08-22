@@ -15,12 +15,10 @@ a {
  font-size: 20px;
  border-radius: 10px;
  padding: 10px;
- display: inline-block;
+ display: block;
  text-align: center;
  margin: 10px;
  color: slateblue;
- width: 420px;
- height: 55px;
 }
 h1{
   text-align: center;
@@ -29,5 +27,6 @@ title{
   text-align: center;
 
 }
+
 
 
