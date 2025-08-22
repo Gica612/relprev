@@ -10,6 +10,17 @@
   
   <h1>RELPREV</h1>
   <h2>Faça aqui seu relatório</h2>
+<div class="relative mb-6">
+    <button id="menu-toggle" class="md:hidden w-full py-3 px-6 bg-indigo-600 text-white font-semibold rounded-full shadow-lg hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 transition-colors duration-300">
+      ☰ Menu
+    </button>
+            
+    <nav id="navLinks" class="hidden md:flex flex-col md:flex-row items-center justify-center space-y-4 md:space-y-0 md:space-x-6 mt-4 md:mt-0">
+      <a href="#" class="w-full md:w-auto py-3 px-6 bg-gray-200 text-gray-700 font-medium rounded-full hover:bg-gray-300 transition-colors duration-300">Início</a>
+      <a href="#" target="_blank" class="w-full md:w-auto py-3 px-6 bg-gray-200 text-gray-700 font-medium rounded-full hover:bg-gray-300 transition-colors duration-300">Tabela preços</a>
+      <a href="#" class="w-full md:w-auto py-3 px-6 bg-gray-200 text-gray-700 font-medium rounded-full hover:bg-gray-300 transition-colors duration-300">Contato</a>
+    </nav>
+  </div>
   
   <p>
     O RELPREV é um reporte voluntário estabelecido pelo SIPAER para que qualquer pessoa
@@ -21,11 +32,18 @@
   <nav>
     <a href="https://docs.google.com/forms/d/e/1FAIpQLSezdrA4K2td78SvKm0qaNz6533nfFy2vWQSEMQsvpxr4Fgt0w/viewform?usp=sharing&ouid=117068505977090337062" target= "_blank">Formulário</a>
   </nav>
-    
+   <script>
+    const menuToggle = document.getElementById('menu-toggle');
+    const navLinks = document.getElementById('navLinks');
 
+      menuToggle.addEventListener('click', () => {
+        navLinks.classList.toggle('hidden');
+      });
+  </script> 
   
 </body>
 </html>
+
 
 
 
